@@ -1,11 +1,11 @@
-package com.example.roomapp.Dao
+package com.example.roomapp.dao
 
 import androidx.room.*
-import com.example.roomapp.Entities.Director
-import com.example.roomapp.Entities.School
-import com.example.roomapp.Entities.Student
-import com.example.roomapp.Relations.SchoolAndDirector
-import com.example.roomapp.Relations.SchoolWithStudents
+import com.example.roomapp.entities.Director
+import com.example.roomapp.entities.School
+import com.example.roomapp.entities.Student
+import com.example.roomapp.relations.SchoolAndDirector
+import com.example.roomapp.relations.SchoolWithStudents
 
 @Dao
 interface SchoolDao {

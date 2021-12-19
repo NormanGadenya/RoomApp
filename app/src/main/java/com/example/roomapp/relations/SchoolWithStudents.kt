@@ -1,9 +1,9 @@
-package com.example.roomapp.Relations
+package com.example.roomapp.relations
 
 import androidx.room.Embedded
 import androidx.room.Relation
-import com.example.roomapp.Entities.School
-import com.example.roomapp.Entities.Student
+import com.example.roomapp.entities.School
+import com.example.roomapp.entities.Student
 
 data class SchoolWithStudents(
     @Embedded val school: School,
